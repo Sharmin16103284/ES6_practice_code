@@ -1,0 +1,33 @@
+<script>
+
+    // es5 
+    var sums = function() {
+        var c = 5;
+        var d = 10;
+        return c+d;
+    }
+    console.log(sums());
+
+
+    // es 6
+
+    const sum = () => {
+        let a = 5;
+        let b = 15;
+        return a+b;
+    }
+    console.log(sum());
+
+    // or
+    let e = 10;
+    let f = 15;
+    // const sum2 = () => {return e+f}
+    const sum2 = () => e+f
+    console.log(sum2());
+
+    // or 
+    // no need to define variable
+    const sum3 = (g,h) => g+h
+    console.log(sum3(30,40));
+
+</script>

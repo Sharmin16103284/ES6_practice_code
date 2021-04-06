@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>string method</title>
+</head>
+<body>
+
+    <script>
+
+        var name = "sharmin";
+        var lname = "sultana"
+
+        // validating string
+        // first letter must be s
+        console.log(`${name}` .startsWith('s'));
+        console.log(`${name}` .startsWith('S')); //case sensetive
+
+        // last letter must be n
+        console.log(`${name}` .endsWith('n'));
+
+        // must contains these letter in the string
+        console.log(`${name}` .includes('har'));
+        console.log(`${name}` .includes('harpo')); //po is not in the string
+
+        // repeate strings
+        console.log(`${name} ${lname} ` .repeat(10)); //put space after variable
+
+    </script>
+    
+</body>
+</html>

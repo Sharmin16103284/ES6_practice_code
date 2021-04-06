@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>array_destructuring</title>
+</head>
+<body>
+
+    <script>
+
+        const language = ['js' , 'php' , 'c' , 'python' , 'java'];
+
+        // es5 
+        var top1 = language[0];
+        var top2 = language[1];
+
+        console.log(`my fav language is ${top1}`);
+
+        // es6
+        let [first , second , third , fourth , fifth] = language; //declaring variables
+
+        console.log(`my fav language is ${first}`)
+
+        // first and last element of an array
+        let [one ,,,, five] = language; //put commas for skipping the 2nd 3rd and 4rth elements
+        console.log(`my fav language is ${one} and ${five}`);
+
+
+    </script>
+    
+</body>
+</html>

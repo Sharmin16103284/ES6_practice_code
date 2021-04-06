@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>template literals</title>
+</head>
+<body>
+    
+    <script>
+
+        let fname = "sharmin";
+        let lname = "sultana";
+
+        // normal concatenation
+        console.log("my first name is " + fname + " and last name is " + lname);
+
+        // es6 template literals
+        console.log(`my first name is ${fname} and my last name is ${lname}`);
+
+
+        // maths example
+        let a = 20;
+        let b = 30;
+
+        // es5
+        console.log("fifty is " + (a+b) + " and\nnot " + (2*a+b));
+
+        // es6
+        console.log(`fifty is ${a+b} and 
+not ${2*a+b}`);  //tab will put space in output
+
+    </script>
+
+</body>
+</html>
